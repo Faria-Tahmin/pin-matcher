@@ -7,7 +7,7 @@
  document.querySelector(".generate-btn").addEventListener("click",generatePin)
  function generatePin(){
      document.querySelector(".pinValueGenerate").value = Math.ceil(Math.random()*(9999-1000 + 1 ) + 1000);
-     document.querySelector(".pinValueGenerate").style.color ="cyan"
+     document.querySelector(".pinValueGenerate").style.color ="skyblue"
      document.querySelector(".pinValueGenerate").style.fontSize ="20px"
      document.querySelector(".pinValueGenerate").style.textAlign ="center"
      
@@ -18,7 +18,7 @@
  function pinValueAcceptor(x){
      const inputValuePresent = document.querySelector(".inputValueShower")
      inputValuePresent.value = inputValuePresent.value + x;
-     inputValuePresent.style.color ="cyan"
+     inputValuePresent.style.color ="skyblue"
      inputValuePresent.style.textAlign ="center"
      inputValuePresent.style.fontSize ="20px"
 
